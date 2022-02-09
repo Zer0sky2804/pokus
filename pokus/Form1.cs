@@ -23,6 +23,7 @@ namespace pokus
             int b = int.Parse(textBox2.Text);
             label1.Text = (a + b).ToString();
             label2.Text = (a - b).ToString();
+            label3.Text = (a * b).ToString();
         }
     }
 }
