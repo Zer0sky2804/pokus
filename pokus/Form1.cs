@@ -24,6 +24,7 @@ namespace pokus
             label1.Text = (a + b).ToString();
             label2.Text = (a - b).ToString();
             label3.Text = (a * b).ToString();
+            label4.Text = (a / b).ToString();
         }
     }
 }
